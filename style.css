@@ -7,6 +7,10 @@
 
 /* GLOBAL STYLES */
 
+* {
+  box-sizing: border-box;
+}
+
 body{
   background-color: var(--red);
   color: var(--white);
@@ -17,7 +21,7 @@ body{
 
 .main {
 display: grid;
-justify-content: center;
+/* justify-content: center; */
 }
 
 /* NAV */
@@ -63,17 +67,17 @@ justify-content: center;
   justify-content: center;
   min-height: 20vh;
   padding: 2rem;
+  width:100%;
 }
 
 .container__landing {
   top:200px;
   display:grid;
-  justify-content: center;
+  justify-content: end !important;
   border-bottom: 1px solid var(--white);
   min-height: 50vh;
   justify-content: end;
-  align-content: end;
-  width:85vw;
+  align-items: end;
 }
 
 .btn {
