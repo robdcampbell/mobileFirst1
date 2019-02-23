@@ -14,7 +14,7 @@ $('.home__link').on('click',function(){
 
 // Projects
 $('.projects__link').on('click',function(){
-  const images = $('#images').position().top;
+  const images = $('.container__projects').position().top;
 
   $('html, body').animate(
     {

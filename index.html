@@ -8,40 +8,35 @@
   <title>rob campbell</title>
 </head>
 <body>
-  <main>
+  <main class="main">
 
-    <!-- NavBar (fixed) -->
+    <!-- NavBar (fixed to top) -->
     <nav class="nav">
-        <a href="#" class="home__link" >rob campbell</a>
-        <a href="#" class="projects__link" >projects</a>
-        <a href="#" class="about__link">about</a>
-        <a href="#" class="contact__link">contact</a>
+        <a href="#" class="nav__link home__link" >rob campbell</a>
+        <a href="#" class="nav__link projects__link" >projects</a>
+        <a href="#" class="nav__link about__link">about</a>
+        <a href="#" class="nav__link contact__link">contact</a>
     </nav>
 
     <!-- Landing Area -->
-    <div class="landing home">
-      <div class="container landing-text">
-        <div class="landing-text-inner">
+    <div class="container container__landing home">
           <h1>rob campbell</h1>
           <!-- <h2>welcome.</h2> -->
-          <a href="#images" class="btn" id="view-work">View Work</a>
-        </div>
-      </div>
-      <div id="landing-image"></div>
     </div>
 
-    <div id="images">
-      <div id="header">
-        <h2>projects</h2>
-      </div>
+    <!-- projects -->
+    <div id="images" class="container">
+      <div class="container container__projects">
+          <h2>projects</h2>
+      </div>  
 
-      <img src="https://source.unsplash.com/AexUP8dZNaw" alt=""> 
-      <div class="caption about">
+      <!-- <img src="https://source.unsplash.com/AexUP8dZNaw" alt="">  -->
+      <div class="container about">
         <h3> about </h3>
 
       </div>
       <img src="https://source.unsplash.com/Y8VzwDZ7iHY" alt="">
-      <div class="caption contact">
+      <div class="container contact">
         <h3> contact </h3>
        
       </div>
@@ -49,10 +44,9 @@
     </div>
   </main>
 
-  <footer>
+  <footer class="footer__container">
     <h3>There's more on its way.</h3>
-    <p>Until then,you can reach me at: <strong>rdeancampbell@gmail.com</strong></p>
-
+    <p>Until then,you can reach me at: rdeancampbell@gmail.com</p>
     <!-- Social Media/gitHub/instagram/linkedIn -->
 
   </footer>
