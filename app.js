@@ -1,39 +1,49 @@
-const arr = ['snake', 'lizard', 'elephant', 'ant', 'aardvark'];
-const arr2 = [12,3435,66,78,9,99999,865,4];
+// const arr = ['snake', 'lizard', 'elephant', 'ant', 'aardvark'];
+// const arr2 = [12,3435,66,78,9,99999,865,4];
 
-// SORT
+// // SORT
 
-// alphabetic - by default, the .sort() will arrange items alphabetically by their UTF-16 code unit value
-const alphabetic = arr.sort();
-console.log(alphabetic);
+// // alphabetic - by default, the .sort() will arrange items alphabetically by their UTF-16 code unit value
+// const alphabetic = arr.sort();
+// console.log(alphabetic);
 
-// chronological:
-const chronological = arr2.sort((a,b)=> {
-  return b-a;
-});
-console.log(chronological);
-
-
-// concat two arrays together
-  // 1) using an alogrithm
-
-  const arrOriginal = ['a','b','c'];
-  const arrStart = ['start'];
-  const arrEnd = ["end"];
-  const combined1 = arrStart.concat(arrOriginal.concat(arrEnd));
-  const combinedArr = [...arrStart,...arrOriginal,...arrEnd];
-
-  console.log(combined1);
-  console.log(combinedArr);
+// // chronological:
+// const chronological = arr2.sort((a,b)=> {
+//   return b-a;
+// });
+// console.log(chronological);
 
 
+// // concat two arrays together
+//   // 1) using an alogrithm
 
-// Find the max number in an array
-const arrOfNums = [3,24,124234,5];
+//   const arrOriginal = ['a','b','c'];
+//   const arrStart = ['start'];
+//   const arrEnd = ["end"];
+//   const combined1 = arrStart.concat(arrOriginal.concat(arrEnd));
+//   const combinedArr = [...arrStart,...arrOriginal,...arrEnd];
 
-function findMax(arr){
-  return Math.max(...arr)
-};
+//   console.log(combined1);
+//   console.log(combinedArr);
 
-console.log(findMax(arrOfNums));
 
+
+// // Find the max number in an array
+// const arrOfNums = [3,24,124234,5];
+
+// function findMax(arr){
+//   return Math.max(...arr)
+// };
+
+// console.log(findMax(arrOfNums));
+
+function randomNumber(limit){
+  return Math.floor(Math.random()*limit) +1;
+}
+
+console.log(randomNumber(4));
+console.log(randomNumber(4));
+console.log(randomNumber(4));
+console.log(randomNumber(4));
+console.log(randomNumber(4));
+console.log(randomNumber(4));

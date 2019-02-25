@@ -24,7 +24,7 @@ $('.projects__link').on('click',function(){
 
 // About
 $('.about__link').on('click',function(){
-  const images = $('.about').position().top;
+  const images = $('.container__about').position().top;
 
   $('html, body').animate(
     {
