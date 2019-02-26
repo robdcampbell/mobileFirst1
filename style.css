@@ -123,7 +123,7 @@ justify-content: center; */
 .container__skills {
   display: grid;
   grid-gap: 2rem;
-  grid-template-columns: repeat(5,95px);
+  grid-template-columns: repeat(6,95px);
   justify-content: center;
   padding: 1rem;
 }
@@ -178,5 +178,11 @@ justify-content: center; */
     grid-gap: 1rem;
     grid-template-columns: repeat(3,1fr);
     justify-content: center;
+  }
+  .skill {
+    border: .5px solid var(--white);
+    border-radius:.3rem;
+    padding: .25rem;
+    text-align: center;
   }
 }

@@ -34,13 +34,14 @@ $('.about__link').on('click',function(){
 
 // Contact
 $('.contact__link').on('click',function(){
-  const images = $('.contact').position().top;
+  const images = $('.container__contact').position().top;
 
   $('html, body').animate(
     {
     scrollTop: images
   },900);
 });
+
 
 // View Work BTN
 $('#view-work').on('click',function(){
