@@ -141,17 +141,23 @@ justify-content: center; */
 /* FOOTER */
 .footer__container {
   border-top: 1px solid var(--white);
-  text-align: center;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 2rem;
+  justify-content: center;
   padding: 1rem;
   padding-bottom: 2rem;
   margin: auto;
-  color: var(--white);
 }
 
-.footer__container h3{
-  font-size: 3rem;
+.footer__container h4{
+  font-size: 2rem;
   margin-bottom: 0;
   padding: 1rem;
+}
+
+.footer__link {
+  color: var(--white);
 }
 
 
