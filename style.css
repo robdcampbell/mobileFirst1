@@ -23,7 +23,8 @@ time, mark, audio, video {
 }
 
 :root {
-  --red: rgba(255, 25, 0, 0.8);
+  --black: rgba(32, 30, 30, 0.9);
+  --red: rgba(255, 25, 0, 0.897);
   --offRed: rgba(255, 25, 0, 0.75);
   --blue: rgba(0, 157, 255, 0.812);
   --white: rgba(241, 240, 240,.9);
@@ -42,6 +43,9 @@ body{
   margin:0;
   height: auto;
 }
+ h2 {
+   font-size: 2rem;
+ }
 
 .main {
 /* display: grid;
