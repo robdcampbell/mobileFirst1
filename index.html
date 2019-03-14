@@ -13,17 +13,17 @@
 
     <!-- NavBar (fixed to top) -->
     <nav class="nav">
-        <a href="#" class="nav__title nav__link home__link" >rob campbell.io</a>
+        <a href="#top" class="nav__title nav__link home__link" >rob campbell.io</a>
         
         <div class="nav__link__container">
-            <a href="#" class="nav__link projects__link" >projects</a>
-            <a href="#" class="nav__link about__link">about</a>
-            <a href="#" class="nav__link contact__link">contact</a>
+            <a href="#projects" class="nav__link projects__link" >projects</a>
+            <a href="#about" class="nav__link about__link">about</a>
+            <a href="#contact" class="nav__link contact__link">contact</a>
         </div>
     </nav>
 
     <!-- Landing Area -->
-    <div class="container container__landing home">
+    <div id="top" class="container container__landing home">
           <h1 class="landing__title">rob campbell</h1>
           <!-- <h2>welcome.</h2> -->
     </div>
@@ -31,14 +31,14 @@
     <!-- projects -->
       <div class="container container__projects">
           <h2>projects</h2>
-          <div class="projects">
+          <div id="projects"class="projects">
             <p>(coming soon...)</p>
           </div>
       </div>  
 
     <!-- about -->
       
-      <div class="container__about">
+      <div id="about" class="container__about">
           <h2> about </h2>
 
           <h3> skillset </h3>
@@ -60,7 +60,7 @@
      
       <!-- Contact -->
       
-      <div class="container container__contact">
+      <div id="contact" class="container container__contact">
         <h3> contact </h3>
         <p>reach me at: rdeancampbell@gmail.com</p>
       </div>
@@ -83,10 +83,11 @@
 
   </footer>
 
-  <script
+  <!-- <script
   src="http://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
+  crossorigin="anonymous"></script> -->
+  <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@14.0.0/dist/smooth-scroll.polyfills.min.js"></script>
   <script src="js/main.js"></script>
   <script src="app.js"></script>
 </body>
