@@ -23,11 +23,12 @@ time, mark, audio, video {
 }
 
 :root {
-  --black: rgba(32, 30, 30, 0.9);
-  --red: rgba(255, 25, 0, 0.897);
+  --black: rgb(40, 35, 34);
+  --red: rgba(219, 67, 50, 0.897);
   --offRed: rgba(255, 25, 0, 0.75);
   --blue: rgba(0, 157, 255, 0.812);
   --white: rgba(241, 240, 240,.9);
+  --gray: rgb(121, 121, 121);
 }
 
 /* GLOBAL STYLES */
@@ -37,14 +38,17 @@ time, mark, audio, video {
 }
 
 body{
-  background: linear-gradient(180deg, var(--red), var(--offRed),var(--red));
-  color: var(--white);
+  background: linear-gradient(180deg, var(--white), var(--white),var(--white));
+  color: var(--black);
   font-family: 'Roboto Condensed', sans-serif;
   margin:0;
   height: auto;
 }
  h2 {
    font-size: 2rem;
+ }
+ h3{
+   font-size: 1.5rem;
  }
 
 .main {
@@ -63,7 +67,7 @@ justify-content: center; */
   width: 100%;
 }
 .nav__title{
-  color: var(--white);
+  color: var(--black);
   text-decoration: none;
 }
 .nav__link__container{
@@ -74,11 +78,11 @@ justify-content: center; */
   padding-right: 1rem;
 }
 .nav__link {
-  color: var(--white);
+  color: var(--black);
   text-decoration: none;
 }
 .nav__link:hover {
-  color: #f4f4f4;
+  color: #ccc;
   font-weight: 600;
 }
 .home__link {
@@ -98,7 +102,7 @@ justify-content: center; */
   top:200px;
   display:grid;
   justify-content: end;
-  border-bottom: 1px solid var(--white);
+  border-bottom: 1px solid var(--gray);
   min-height: 50vh;
   align-content: end;
   
@@ -114,7 +118,7 @@ justify-content: center; */
 
 /* PROJECTS */
   .container__projects{
-    border-bottom: 1px solid var(--white);
+    border-bottom: 1px solid var(--gray);
     min-height: 40vh;
   }
 
@@ -134,7 +138,7 @@ justify-content: center; */
 }
 
 .skill {
-  border: .5px solid var(--white);
+  border: .5px solid var(--red);
   border-radius:.3rem;
   text-align: center;
 }
@@ -145,7 +149,7 @@ justify-content: center; */
 
 /* FOOTER */
 .footer__container {
-  border-top: 1px solid var(--white);
+  border-top: 1px solid var(--gray);
   display: grid;
   grid-template-columns: auto auto auto;
   grid-gap: 2rem;
