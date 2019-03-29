@@ -27,7 +27,7 @@ time, mark, audio, video {
   --red: rgba(219, 67, 50, 0.897);
   --offRed: rgba(255, 25, 0, 0.75);
   --blue: rgba(0, 157, 255, 0.812);
-  --white: rgba(241, 240, 240,.9);
+  --white: rgb(255, 255, 255);
   --gray: rgb(121, 121, 121);
 }
 

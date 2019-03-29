@@ -1,0 +1,22 @@
+{
+  "name": "mobilefirst1",
+  "version": "1.0.0",
+  "description": "# Using a combination of clean UI and flexible, stacking structure to create a scrolling single page website.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robdcampbell/mobileFirst1.git"
+  },
+  "author": "Rob Campbell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robdcampbell/mobileFirst1/issues"
+  },
+  "homepage": "https://github.com/robdcampbell/mobileFirst1#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
