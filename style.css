@@ -29,6 +29,7 @@ time, mark, audio, video {
   --blue: rgba(0, 157, 255, 0.812);
   --white: rgb(255, 255, 255);
   --gray: rgb(121, 121, 121);
+  --light-gray: rgba(240, 240, 240, 0.6);
 }
 
 /* GLOBAL STYLES */
@@ -129,6 +130,9 @@ justify-content: center; */
   justify-items: center;
   padding: 2rem;
 }
+.about__header {
+  margin-bottom: 2rem;
+}
 .container__skills {
   display: grid;
   grid-gap: 2rem;
@@ -138,6 +142,7 @@ justify-content: center; */
 }
 
 .skill {
+  background-color: var(--light-gray);
   border: .5px solid var(--gray);
   border-radius:.3rem;
   text-align: center;
@@ -166,7 +171,7 @@ justify-content: center; */
 }
 
 .footer__link {
-  color: var(--white);
+  color: var(--gray);
 }
 
 
