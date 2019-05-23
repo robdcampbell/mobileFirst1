@@ -142,6 +142,22 @@ justify-content: center; */
     min-height: 40vh;
   }
 
+  .project {
+      margin: .5rem;
+    }
+.app-button {
+  background-color: var(--light-gray);
+  border: .5px solid var(--offWhite);
+  border-radius:.3rem;
+  color: var(--white);
+  min-width: 30vw;
+  padding: .2rem;
+  text-align: center;
+}
+.app-button:hover {
+  background: var(--offred);
+}
+
 /* ABOUT */
 .container__about{
   border-bottom: 1px solid var(--white);
@@ -160,7 +176,7 @@ justify-content: center; */
   padding: 1rem;
 }
 
-.skill, .app-button {
+.skill {
   background-color: var(--light-gray);
   border: .5px solid var(--offWhite);
   border-radius:.3rem;
