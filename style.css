@@ -47,7 +47,7 @@ body{
   height: auto;
 }
 a{
-  color: var(--white);
+  color: var(--black);
   text-decoration: none;
 }
 a:hover{
@@ -160,7 +160,7 @@ justify-content: center; */
   padding: 1rem;
 }
 
-.skill {
+.skill, .app-button {
   background-color: var(--light-gray);
   border: .5px solid var(--offWhite);
   border-radius:.3rem;
