@@ -178,13 +178,14 @@ justify-content: center; */
 }
 
 .skill {
-  background-color: var(--light-gray);
+  /* background-color: var(--light-gray); */
   border: .5px solid var(--offWhite);
   border-radius:.3rem;
   text-align: center;
 }
 .skill:hover {
-  background: var(--offred);
+  color: var(--black);
+  background: var(--white);
 }
 
 
