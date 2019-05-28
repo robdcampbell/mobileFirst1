@@ -66,6 +66,18 @@ a:hover{
 justify-content: center; */
 }
 
+.container__section {
+  min-height: 60vh;
+}
+
+.container {
+  display: grid;
+  justify-items: center;
+  min-height: 20vh;
+  padding: 2rem;
+  width:100%;
+}
+
 /* NAV */
 .nav{
   background: none;
@@ -110,20 +122,13 @@ justify-content: center; */
 }
 
 /* LANDING SECTION */
-.container {
-  display: grid;
-  justify-items: center;
-  min-height: 20vh;
-  padding: 2rem;
-  width:100%;
-}
 
 .container__landing {
   top:200px;
   display:grid;
   justify-content: end;
   border-bottom: 1px solid var(--offWhite);
-  min-height: 50vh;
+  min-height: 90vh;
   align-content: end;
   
 }
