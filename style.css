@@ -147,9 +147,10 @@ justify-content: center; */
     min-height: 40vh;
   }
 
-  .project {
+ .project {
       margin: .5rem;
-    }
+      margin-bottom: 1rem;
+  }
 .app-button {
   background-color: none;
   border: .5px solid var(--offWhite);
