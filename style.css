@@ -148,8 +148,12 @@ justify-content: center; */
   }
 
  .project {
+      border: .5px solid var(--white);
+      border-radius: .5rem;
       margin: .5rem;
       margin-bottom: 1rem;
+      padding: 2rem;
+      width:90vw;
   }
 .app-button {
   background-color: none;
