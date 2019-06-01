@@ -148,8 +148,9 @@ justify-content: center; */
   }
 
  .project {
-      border: .5px solid var(--white);
-      border-radius: .5rem;
+      /* border: .5px solid var(--white);
+      border-radius: .5rem; */
+      
       display: grid;
       grid-gap:.5rem;
       grid-template-columns: repeat(2,auto);
@@ -181,7 +182,10 @@ justify-content: center; */
   padding: .2rem;
   text-align: center;
 }
-
+.app-code:hover {
+  background-color: var(--offWhite);
+  color: var(--gray);
+}
 /* ABOUT */
 .container__about{
   border-bottom: 1px solid var(--white);
