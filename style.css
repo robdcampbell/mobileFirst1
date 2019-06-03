@@ -152,7 +152,7 @@ justify-content: center; */
       border-radius: .5rem; */
       
       display: grid;
-      grid-gap:.5rem;
+      grid-gap: 2rem;
       grid-template-columns: repeat(2,auto);
       justify-content: space-around;
       margin: .5rem;
