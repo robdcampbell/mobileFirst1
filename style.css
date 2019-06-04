@@ -277,14 +277,21 @@ justify-content: center; */
 
 
 .footer__container {
+  align-items: center;
   border-top: 1px solid var(--offWhite);
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto auto auto;
   grid-gap: 2rem;
   justify-content: center;
   padding: 1rem;
   padding-bottom: 2rem;
   margin: auto;
+}
+
+.footer__container p{
+  font-size: 1rem;
+  margin-bottom: 0;
+  color: var(--offWhite);
 }
 
 .footer__container h4{
