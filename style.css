@@ -1,6 +1,27 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
 
-/* RESET */
+
+
+/* TABLE OF CONTENTS. 
+
+01_Reset
+02_Global Styles
+03_Text
+04_Nav
+05_Landing
+06_Projects
+07_About
+08_Contact
+09_Footer
+
+
+*/
+
+
+
+/*  01. RESET */
+
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -23,7 +44,7 @@ time, mark, audio, video {
 }
 
 :root {
-  --black: rgb(40, 35, 34);
+  --black: rgba(45, 42, 42,.7);
   --red: rgba(219, 67, 50, 0.897);
   --offRed: rgba(255, 25, 0, 0.75);
   --blue: rgba(0, 157, 255, 0.812);
@@ -33,7 +54,9 @@ time, mark, audio, video {
   --light-gray: rgba(240, 240, 240, 0.6);
 }
 
-/* GLOBAL STYLES */
+
+/* 02. GLOBAL STYLES */
+
 
 * {
   box-sizing: border-box;
@@ -78,7 +101,22 @@ justify-content: center; */
   width:100%;
 }
 
-/* NAV */
+
+/* 03 TEXT */
+
+
+.primary {
+
+}
+.secondary {
+  color: var(--light-gray);
+}
+
+.section_header {
+  padding: 1rem;
+}
+
+/* 04 NAV */
 .nav{
   background: none;
   display: grid;
@@ -121,7 +159,9 @@ justify-content: center; */
   float: right;
 }
 
-/* LANDING SECTION */
+
+/* 05 LANDING SECTION */
+
 
 .container__landing {
   top:200px;
@@ -141,8 +181,11 @@ justify-content: center; */
   padding: 0;
 }
 
-/* PROJECTS */
-  .container__projects{
+
+/* 06 PROJECTS */
+
+
+.container__projects{
     border-bottom: 1px solid var(--offWhite);
     min-height: 100vh;
   }
@@ -186,7 +229,11 @@ justify-content: center; */
   background-color: var(--offWhite);
   color: var(--gray);
 }
-/* ABOUT */
+
+
+/* 07 ABOUT */
+
+
 .container__about{
   border-bottom: 1px solid var(--white);
   display: grid;
@@ -195,6 +242,11 @@ justify-content: center; */
 }
 .about__header {
   margin-bottom: 2rem;
+  
+}
+.about-summary{
+  margin: 2rem auto;
+  width: 60vw;
 }
 .container__skills {
   display: grid;
@@ -216,7 +268,14 @@ justify-content: center; */
 }
 
 
-/* FOOTER */
+/* 08 Contact */
+
+
+
+
+/* 09 FOOTER */
+
+
 .footer__container {
   border-top: 1px solid var(--offWhite);
   display: grid;
